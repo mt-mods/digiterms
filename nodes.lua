@@ -105,13 +105,19 @@ digiterms.register_monitor('digiterms:cathodic_beige_monitor', {
 		},
 	},
 }, {
-	tiles = { "digiterms_beige_top.png",   "digiterms_beige_bottom.png",
-						"digiterms_beige_sides.png", "digiterms_beige_sides.png^[transformFX]",
-						"digiterms_beige_back.png",  "digiterms_beige_front.png",},
+	tiles = {
+		"digiterms_white_top.png^[colorize:#FFDF00:48",
+		"digiterms_white_bottom.png^[colorize:#FFDF00:48",
+		"digiterms_white_sides.png^[colorize:#FFDF00:48",
+		"digiterms_white_sides.png^[colorize:#FFDF00:48^[transformFX",
+		"digiterms_white_back.png^[colorize:#FFDF00:48", "digiterms_beige_front.png",},
 }, {
-	tiles = { "digiterms_beige_top.png",   "digiterms_beige_bottom.png",
-						"digiterms_beige_sides.png", "digiterms_beige_sides.png^[transformFX]",
-						"digiterms_beige_back.png",  "digiterms_beige_front_off.png",},
+	tiles = {
+		"digiterms_white_top.png^[colorize:#FFDF00:48",
+		"digiterms_white_bottom.png^[colorize:#FFDF00:48",
+		"digiterms_white_sides.png^[colorize:#FFDF00:48",
+		"digiterms_white_sides.png^[colorize:#FFDF00:48^[transformFX]",
+		"digiterms_white_back.png^[colorize:#FFDF00:48", "digiterms_beige_front_off.png",},
 })
 minetest.register_alias('digiterms:cathodic_amber_monitor', 'digiterms:cathodic_beige_monitor')
 minetest.register_alias('digiterms:cathodic_amber_monitor_off', 'digiterms:cathodic_beige_monitor_off')
@@ -137,13 +143,15 @@ digiterms.register_monitor('digiterms:cathodic_white_monitor', {
 		},
 	},
 }, {
-	tiles = { "digiterms_white_top.png",   "digiterms_white_bottom.png",
-						"digiterms_white_sides.png", "digiterms_white_sides.png^[transformFX]",
-						"digiterms_white_back.png",  "digiterms_white_front.png",},
+	tiles = {
+		"digiterms_white_top.png",   "digiterms_white_bottom.png",
+		"digiterms_white_sides.png", "digiterms_white_sides.png^[transformFX]",
+		"digiterms_white_back.png",  "digiterms_white_front.png",},
 }, {
-	tiles = { "digiterms_white_top.png", "digiterms_white_bottom.png",
-						"digiterms_white_sides.png", "digiterms_white_sides.png^[transformFX]",
-						"digiterms_white_back.png", "digiterms_white_front_off.png",},
+	tiles = {
+		"digiterms_white_top.png",   "digiterms_white_bottom.png",
+		"digiterms_white_sides.png", "digiterms_white_sides.png^[transformFX]",
+		"digiterms_white_back.png",  "digiterms_white_front_off.png",},
 })
 minetest.register_alias('digiterms:cathodic_green_monitor', 'digiterms:cathodic_white_monitor')
 minetest.register_alias('digiterms:cathodic_green_monitor_off', 'digiterms:cathodic_white_monitor_off')
@@ -169,13 +177,19 @@ digiterms.register_monitor('digiterms:cathodic_black_monitor', {
 		},
 	},
 }, {
-	tiles = { "digiterms_black_top.png",   "digiterms_black_bottom.png",
-						"digiterms_black_sides.png", "digiterms_black_sides.png^[transformFX]",
-						"digiterms_black_back.png",  "digiterms_black_front.png",},
+	tiles = {
+		"digiterms_white_top.png^[colorize:#120F02:186",
+		"digiterms_white_bottom.png^[colorize:#120F02:186",
+		"digiterms_white_sides.png^[colorize:#120F02:186",
+		"digiterms_white_sides.png^[colorize:#120F02:186^[transformFX]",
+		"digiterms_white_back.png^[colorize:#120F02:186", "digiterms_black_front.png",},
 }, {
-	tiles = { "digiterms_black_top.png", "digiterms_black_bottom.png",
-						"digiterms_black_sides.png", "digiterms_black_sides.png^[transformFX]",
-						"digiterms_black_back.png", "digiterms_black_front_off.png",},
+	tiles = {
+		"digiterms_white_top.png^[colorize:#120F02:186",
+		"digiterms_white_bottom.png^[colorize:#120F02:186",
+		"digiterms_white_sides.png^[colorize:#120F02:186",
+		"digiterms_white_sides.png^[colorize:#120F02:186^[transformFX]",
+		"digiterms_white_back.png^[colorize:#120F02:186", "digiterms_black_front_off.png",},
 })
 
 -- KEYBOARDS
@@ -252,9 +266,13 @@ minetest.register_node('digiterms:beige_keyboard', {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = false,
-	tiles = { "digiterms_beige_keyboard_top.png",   "digiterms_beige_keyboard_bottom.png",
-						"digiterms_beige_keyboard_sides.png", "digiterms_beige_keyboard_sides.png",
-						"digiterms_beige_keyboard_sides.png", "digiterms_beige_keyboard_sides.png",},
+	tiles = {
+		"digiterms_white_keyboard_top.png^[colorize:#FFDF00:48",
+		"digiterms_white_keyboard_bottom.png^[colorize:#FFDF00:48",
+		"digiterms_white_keyboard_sides.png^[colorize:#FFDF00:48",
+		"digiterms_white_keyboard_sides.png^[colorize:#FFDF00:48",
+		"digiterms_white_keyboard_sides.png^[colorize:#FFDF00:48",
+		"digiterms_white_keyboard_sides.png^[colorize:#FFDF00:48",},
 	drawtype = "nodebox",
 	groups = {oddly_breakable_by_hand = 3},
 	node_box = {
@@ -276,9 +294,10 @@ minetest.register_node('digiterms:white_keyboard', {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = false,
-	tiles = { "digiterms_white_keyboard_top.png",   "digiterms_white_keyboard_bottom.png",
-						"digiterms_white_keyboard_sides.png", "digiterms_white_keyboard_sides.png",
-						"digiterms_white_keyboard_sides.png", "digiterms_white_keyboard_sides.png",},
+	tiles = {
+		"digiterms_white_keyboard_top.png",   "digiterms_white_keyboard_bottom.png",
+		"digiterms_white_keyboard_sides.png", "digiterms_white_keyboard_sides.png",
+		"digiterms_white_keyboard_sides.png", "digiterms_white_keyboard_sides.png",},
 	drawtype = "nodebox",
 	groups = {oddly_breakable_by_hand = 3},
 	node_box = {
@@ -300,9 +319,13 @@ minetest.register_node('digiterms:black_keyboard', {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = false,
-	tiles = { "digiterms_black_keyboard_top.png",   "digiterms_black_keyboard_bottom.png",
-						"digiterms_black_keyboard_sides.png", "digiterms_black_keyboard_sides.png",
-						"digiterms_black_keyboard_sides.png", "digiterms_black_keyboard_sides.png",},
+	tiles = {
+		"digiterms_white_keyboard_top.png^[colorize:#120F02:186",
+		"digiterms_white_keyboard_bottom.png^[colorize:#120F02:186",
+		"digiterms_white_keyboard_sides.png^[colorize:#120F02:186",
+		"digiterms_white_keyboard_sides.png^[colorize:#120F02:186",
+		"digiterms_white_keyboard_sides.png^[colorize:#120F02:186",
+		"digiterms_white_keyboard_sides.png^[colorize:#120F02:186",},
 	drawtype = "nodebox",
 	groups = {oddly_breakable_by_hand = 3},
 	node_box = {
