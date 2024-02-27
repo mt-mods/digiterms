@@ -100,6 +100,7 @@ end
 
 local node_def_defaults = {
 	groups = { display_api = 1},
+	is_ground_content = false,
 	on_place = display_api.on_place,
 	on_destruct = display_api.on_destruct,
 	on_rotate = display_api.on_rotate,

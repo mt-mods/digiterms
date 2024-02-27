@@ -257,6 +257,7 @@ minetest.register_node('digiterms:beige_keyboard', {
 						"digiterms_beige_keyboard_sides.png", "digiterms_beige_keyboard_sides.png",},
 	drawtype = "nodebox",
 	groups = {oddly_breakable_by_hand = 3},
+	is_ground_content = false,
 	node_box = {
 		type = "fixed",
 		fixed = {
@@ -281,6 +282,7 @@ minetest.register_node('digiterms:white_keyboard', {
 						"digiterms_white_keyboard_sides.png", "digiterms_white_keyboard_sides.png",},
 	drawtype = "nodebox",
 	groups = {oddly_breakable_by_hand = 3},
+	is_ground_content = false,
 	node_box = {
 		type = "fixed",
 		fixed = {
@@ -305,6 +307,7 @@ minetest.register_node('digiterms:black_keyboard', {
 						"digiterms_black_keyboard_sides.png", "digiterms_black_keyboard_sides.png",},
 	drawtype = "nodebox",
 	groups = {oddly_breakable_by_hand = 3},
+	is_ground_content = false,
 	node_box = {
 		type = "fixed",
 		fixed = {
