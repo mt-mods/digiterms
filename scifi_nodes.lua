@@ -21,9 +21,9 @@ digiterms.register_monitor("digiterms:scifi_glassscreen", {
   description = "Digiline glassscreen",
 	paramtype = "light",
 	paramtype2 = "facedir",
-  use_texture_alpha = true,
+  use_texture_alpha = "blend",
 	sunlight_propagates = true,
-  light_source = 15,
+  light_source = default.LIGHT_MAX,
   tiles = {
     "digiterms_scifi_glscrn.png",
     "digiterms_scifi_glscrn.png",

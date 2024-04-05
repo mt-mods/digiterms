@@ -23,23 +23,23 @@ local wire = 'digilines:wire_std_00000000'
 minetest.register_craft({
   output = "digiterms:scifi_glassscreen",
   type = "shapeless",
-  recipe = { "scifi_nodes:glassscreen", "digilines:wire_std_00000000" }
+  recipe = { "scifi_nodes:glassscreen", wire }
 })
 
 minetest.register_craft({
   output = "digiterms:scifi_widescreen",
   type = "shapeless",
-  recipe = { "scifi_nodes:widescreen", "digilines:wire_std_00000000" }
+  recipe = { "scifi_nodes:widescreen", wire }
 })
 
 minetest.register_craft({
   output = "digiterms:scifi_tallscreen",
   type = "shapeless",
-  recipe = { "scifi_nodes:tallscreen", "digilines:wire_std_00000000" }
+  recipe = { "scifi_nodes:tallscreen", wire }
 })
 
 minetest.register_craft({
   output = "digiterms:scifi_keysmonitor",
   type = "shapeless",
-  recipe = { "scifi_nodes:keysmonitor", "digilines:wire_std_00000000" }
+  recipe = { "scifi_nodes:keysmonitor", wire }
 })
