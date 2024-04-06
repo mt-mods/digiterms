@@ -5,13 +5,13 @@ Digilines monitors and keyboards mod for Minetest using Display API / Font API.
 
 ![Presentation image of Digiterms](screenshot.png)
 
-Monitors display text received on their digiline channel and works like digilines lcd monitor.
+Monitors display text received on their digiline channel and work like digilines lcd monitor.
 
-Keyboards send text ofer their digiline channel. In protected areas, keyboard can be set to "Public" to be usable by anybody. Else, only players granted rights on the area can use the keyboard.
+Keyboards send text over their digiline channel. In protected areas, keyboard can be set to "Public" to be usable by anybody. Else, only players granted rights on the area can use the keyboard.
 
 Craft recipes depend on installed mods, please refer to craft guide in game.
 
-If `scifi_nodes` mod is enabled, scifi monitors can be turned into digiterms by crafting scifi monitor with a digiline (some texture are derivated from D00Med mod).
+If `scifi_nodes` mod is enabled, scifi monitors can be turned into digiterms by crafting scifi monitor with a digiline (some textures are derivated from D00Med mod).
 
 **Version**: 0.1
 
