@@ -40,7 +40,7 @@ digiterms.register_monitor("digiterms:scifi_glassscreen", {
       {-0.375, -0.5, -0.0625, 0.375, 0.5, 0}, -- NodeBox10
     }
   },
-  sounds = default.node_sound_glass_defaults(),
+  sounds = xcompat.sounds.node_sound_glass_defaults(),
 	groups = {choppy = 1, oddly_breakable_by_hand = 1},
 	display_entities = {
 		["digiterms:screen"] = {
