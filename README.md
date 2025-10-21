@@ -17,15 +17,19 @@ If `scifi_nodes` mod is enabled, scifi monitors can be turned into digiterms by 
 
 **License**: LGPL v3 for the code, CC-BY-SA for the textures.
 
-**Dependancies**: display_api, font_api, digilines, dye, default
+**Dependencies**: `display_api`, `font_api`, `digilines`, `xcompat`
 
-**Optional dependancies**:xpane, scifi_nodes, basic_materials, homedecor, mesecons_microcontroller, mesecons_luacontroller, mesecons_materials
+**Optional dependancies**: `xpane`, `scifi_nodes`, `basic_materials`, `homedecor`, `mesecons_microcontroller`, `mesecons_luacontroller`, `mesecons_materials`
 
 ## Changelog
 
 ### 2018-12-13 (Version 0.2)
+
 - Keyboards (Beige, white and black).
 - Third cathodic monitor, the black one.
+
 ### 2018-12-09 (Version 0.1)
+
 - Cathodic (2) and LCD monitors and corresponding craft recipes.
 - Scifi nodes monitors : tallscreen, widescreen, glassscreen and keysmonitor
+
