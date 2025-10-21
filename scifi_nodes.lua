@@ -23,7 +23,7 @@ digiterms.register_monitor("digiterms:scifi_glassscreen", {
 	paramtype2 = "facedir",
   use_texture_alpha = "blend",
 	sunlight_propagates = true,
-  light_source = default.LIGHT_MAX,
+  light_source = core.LIGHT_MAX,
   tiles = {
     "digiterms_scifi_glscrn.png",
     "digiterms_scifi_glscrn.png",
