@@ -22,6 +22,10 @@ If `scifi_nodes` mod is enabled, scifi monitors can be turned into digiterms by 
 
 ## Changelog
 
+### Version 0.3 and later
+
+- See  commit history: https://github.com/mt-mods/digiterms/commits/master/
+
 ### 2018-12-13 (Version 0.2)
 
 - Keyboards (Beige, white and black).
@@ -31,7 +35,3 @@ If `scifi_nodes` mod is enabled, scifi monitors can be turned into digiterms by 
 
 - Cathodic (2) and LCD monitors and corresponding craft recipes.
 - Scifi nodes monitors : tallscreen, widescreen, glassscreen and keysmonitor
-
-### Later 
-
-- See  commit history: https://github.com/mt-mods/digiterms/commits/master/
