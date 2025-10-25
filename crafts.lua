@@ -24,7 +24,9 @@ local function material_fallback(list)
       return material
     end
   end
-  return nil
+  -- Fallback to last item 
+  -- (Due to some items returning nil despite existing, like "mcl_copper:copper_ingot")
+  return list[#list]
 end
 
 local body = material_fallback({
@@ -38,7 +40,6 @@ local electronic = material_fallback({
   'mesecons_microcontroller:microcontroller0000',
   'mesecons_luacontroller:luacontroller0000',
   xcompat.materials.copper_ingot,
-  xcompat.materials.gold_ingot,
 })
 
 local button = material_fallback({
