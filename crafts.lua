@@ -60,9 +60,9 @@ local wire = 'digilines:wire_std_00000000'
 core.register_craft({
 	output = "digiterms:lcd_monitor",
 	recipe = {
-		{body, electronic, ''},
-		{glass, silicon, ''},
-		{body, wire, ''},
+		{body, electronic},
+		{glass, silicon},
+		{body, wire},
 	}
 })
 
