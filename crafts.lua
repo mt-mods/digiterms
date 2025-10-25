@@ -32,10 +32,7 @@ local body = material_fallback({
   xcompat.materials.steel_ingot,
 })
 
-local glass = material_fallback({
-  'xpanes:pane_flat',
-  xcompat.materials.glass,
-})
+local glass = xcompat.materials.glass
 
 local electronic = material_fallback({
   'mesecons_microcontroller:microcontroller0000',
