@@ -51,6 +51,7 @@ local button = material_fallback({
 local silicon = material_fallback({
 	'mesecons_materials:silicon',
 	xcompat.materials.dye_black,
+	xcompat.materials.coal_lump,
 })
 
 local wire = 'digilines:wire_std_00000000'
