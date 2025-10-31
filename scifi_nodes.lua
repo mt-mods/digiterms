@@ -23,7 +23,7 @@ digiterms.register_monitor("digiterms:scifi_glassscreen", {
 	paramtype2 = "facedir",
   use_texture_alpha = "blend",
 	sunlight_propagates = true,
-  light_source = default.LIGHT_MAX,
+  light_source = core.LIGHT_MAX,
   tiles = {
     "digiterms_scifi_glscrn.png",
     "digiterms_scifi_glscrn.png",
@@ -40,7 +40,7 @@ digiterms.register_monitor("digiterms:scifi_glassscreen", {
       {-0.375, -0.5, -0.0625, 0.375, 0.5, 0}, -- NodeBox10
     }
   },
-  sounds = default.node_sound_glass_defaults(),
+  sounds = xcompat.sounds.node_sound_glass_defaults(),
 	groups = {choppy = 1, oddly_breakable_by_hand = 1},
 	display_entities = {
 		["digiterms:screen"] = {
